@@ -1,0 +1,98 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: roboto;
+}
+.h1, h1{
+   font-size: 3.5rem
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: lato;
+}
+header{
+	background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
+.navbar-brand i {
+    font-size: 60px;
+    padding: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+    transition: .2s;
+}
+.navbar-nav .nav-link:hover {
+    color: black;
+}
+.carousel-caption{
+    top: 50%;
+}
+.banner mark{
+    background-color: #007bffcf;
+    padding: 20px ;
+    color: #fff;
+    line-height: 70px;
+
+}
+
+.banner button i{
+    transition: 1s;
+}
+.btn-group{
+    margin-top: 50px;
+}
+.banner button:hover i{
+    transform: rotate(360deg);
+    color: yellow;
+}
+
+.feature-section{
+    padding: 0 0 50px 0;
+}
+.feature-content{
+    border-radius: 5px;
+    transition: .5s;
+    margin-top: 20px;
+}
+.feature-content i{
+    color: #007bff;
+    transition: 2s;
+}
+.feature-content:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px black;
+}
+
+.feature-content:hover i{
+
+    transform: skew(5deg);
+}
+
+.progress{
+    height: 20px;
+    margin: 10px 0 30px 0;
+}
+
+.card img{
+
+}
+
+.footer ul li{
+    padding: 5px;
+}
